@@ -1,0 +1,4 @@
+pydantic>=2.0
+numpy
+ollama            # only needed for the ollama backend and for embeddings
+# scikit-learn    # optional: --cluster-method hdbscan

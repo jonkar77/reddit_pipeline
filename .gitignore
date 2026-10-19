@@ -1,0 +1,88 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing, linting, and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Generated data and outputs
+data/
+output/
+outputs/
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.parquet
+*.jsonl
+
+# Logs and temporary files
+logs/
+tmp/
+temp/
+*.log
+*.tmp
+*.bak
+
+# Model weights and checkpoints
+models/
+checkpoints/
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Model and tool caches
+.cache/
+huggingface_cache/
+transformers_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local configuration
+config.local.*
